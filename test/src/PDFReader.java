@@ -33,7 +33,7 @@ public class PDFReader {
     document = PDDocument.load(new File(pdfFile));
     // 获取PDF的文件名
     String fileName = url.getFile();
-    // 以原来PDF的名称来命名新产生的txt文件
+    // 以原来PDF的名称来命名新产生的t12312312313123123xt文件
     if (fileName.length() > 4) {
      File outputFile = new File(fileName.substring(0, fileName
        .length() - 4)
