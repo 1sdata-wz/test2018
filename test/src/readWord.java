@@ -8,6 +8,7 @@ import org.apache.poi.xwpf.usermodel.XWPFDocument;
 
 
 public class readWord {
+	//修改了部分内容
     public static void main(String args[]){
     	OPCPackage in;
 		try {
