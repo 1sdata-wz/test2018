@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text-process-rule-config>
+	<match-rule name="文书论理" regex="(?:事实[及和]理由).{0,10}[_%_Newline_%_]+_%_AnyCharOrNewline_%_*" />
+	<match-rule name="诉请" regex="(?:(?:诉讼|起诉)(?:要求|请求|诉请))[:：]?[_%_Newline_%_]+_%_AnyCharOrNewline_%_*" />
+	<match-rule name="无效文书内容" regex="(?:此致)[_%_Newline_%_]+_%_AnyCharOrNewline_%_*" />
+	<match-rule name="原告" regex="原告_%_AnyCharOrNewline_%_*"/>
+	<match-rule name="被告" regex="(?:第.{0,3})?被告_%_AnyCharOrNewline_%_*" />
+	<match-rule name="第三人" regex="第三人_%_AnyCharOrNewline_%_*" />
+	<match-rule name="文书名称" regex="._%_AnyCharOrNewline_%_*." />
+	<match-rule name="案由" regex="(?:案由)_%_AnyCharOrNewline_%_*" />
+</text-process-rule-config>
